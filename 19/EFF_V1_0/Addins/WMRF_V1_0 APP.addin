@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>  
+  <AddIn Type="Application">
+    <Name>#Insira o nome do projeto#</Name>
+    <Assembly>#Insira o nome do arquivo#.dll</Assembly>
+    <FullClassName>#Insira o nome da classe que será acionada#</FullClassName>
+    <ClientId>#Insira o código GUID do programa#</ClientId>
+    <VendorId>#Insira o código único do programa#</VendorId>
+    <VendorDescription>#Insira a descrição do programa#</VendorDescription>
+  </AddIn>
+</RevitAddIns>
+
