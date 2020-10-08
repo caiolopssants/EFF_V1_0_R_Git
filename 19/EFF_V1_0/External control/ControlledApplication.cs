@@ -20,6 +20,7 @@ namespace ControlledApplication
             try
             {
                 UIControlledApplication = uIControlledApplication; // exemplo de aplicaçăo de variável, foi-se criado uma variável, de nome semelhante, porém a primeira letra é maiúscula, e receberá o valor da variável de nome parecido. Essa varável é direcionada para uma aplicaçăo que ocorrem na inicializaçăo do Revit, năo necessita do auxilio do usuario. Ele será enviado para o comando, pois caso voce tenha realizado uma alteraçao de código na sua aplicaçao, voce teria que fechar o revit e abri-lo novamente para rodar o app, porém destá forma, será somente necerrário lembrar de eliminar esse comando ao entrar no aplicativo e depois coloca-lo de volta, evitando assim que o comando de sobreponha.           
+                new EFF_V1_0.Classes_EFF_V1_0.Command().Execute(externalCommandData, ref reference, elementSet);
                 //INFORME UM OU MAIS COMANDOS A SEREM EXECUTADOS PELO PROGRAMA EXTERNO AQUI
             }
             catch (Exception error) { MessageBox.Show(error.Message); }

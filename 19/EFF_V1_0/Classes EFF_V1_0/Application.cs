@@ -24,7 +24,7 @@ using System.Windows.Forms;
 using System.IO;
 using System.Diagnostics;
 
-namespace TemplateDllLibraryProgram.Classes__Nome_do_programa_
+namespace EFF_V1_0.Classes_EFF_V1_0
 {
     class Application
     {

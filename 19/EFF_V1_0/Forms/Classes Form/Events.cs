@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TemplateDllLibraryProgram.Forms.Classes_Form
+namespace EFF_V1_0.Forms.Classes_Form
 {
     //Como criar um evento:
     //Crie um a função pública, estática, podendo retornar nulo ou não, com o nome ApllyEvents (Somente por questões de normalização). 

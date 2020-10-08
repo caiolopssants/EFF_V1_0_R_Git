@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 //Esta classe está relaciona a classe de eventos (Events class), todo evento criado, deverá ter um método linkado aqui.
-namespace TemplateDllLibraryProgram.Forms.Classes_Form
+namespace EFF_V1_0.Forms.Classes_Form
 {
     //Como criar um Método:
     //**AQUI, POR QUESTÕES DE NECESSIDADE, É POSSÍVEL CRIAR SUB-CLASSES DENTRO DA CLASSE METHODS**

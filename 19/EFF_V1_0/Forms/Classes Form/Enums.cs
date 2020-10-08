@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TemplateDllLibraryProgram.Forms.Classes_Form
+namespace EFF_V1_0.Forms.Classes_Form
 {
     class Enums
     {

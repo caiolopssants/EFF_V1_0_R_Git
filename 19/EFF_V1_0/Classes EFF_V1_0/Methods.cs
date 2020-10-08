@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 //Esta classe está relaciona a classe de eventos (Events class), todo evento criado, deverá ter um método linkado aqui.
-namespace TemplateDllLibraryProgram.Classes__Nome_do_programa_
+namespace EFF_V1_0.Classes_EFF_V1_0
 {
     //Como criar um Método:
     //**AQUI, POR QUESTÕES DE NECESSIDADE, É POSSÍVEL CRIAR SUB-CLASSES DENTRO DA CLASSE METHODS**
@@ -36,7 +37,21 @@ namespace TemplateDllLibraryProgram.Classes__Nome_do_programa_
     //.
     //.
     //.
-    class Methods
+    static class Methods
     {
+        static internal List<string> GetAllFiles (string directoryPath, Func<string, bool> predicate)
+        {   
+            List<string> subDirectories = Directory.GetDirectories(directoryPath).ToList();
+            List<string> files = Directory.GetFiles(directoryPath).Where(predicate).ToList();
+
+            while(subDirectories.Count>0)
+            {
+                subDirectories.AddRange(Directory.GetDirectories(subDirectories[0]).ToList());
+                files.AddRange(Directory.GetFiles(subDirectories[0]).Where(predicate).ToList());
+                subDirectories.Remove(subDirectories[0]);
+            }
+
+            return files;
+        }
     }
 }

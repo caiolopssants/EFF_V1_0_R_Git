@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // As informações gerais sobre um assembly são controladas por
 // conjunto de atributos. Altere estes valores de atributo para modificar as informações
 // associada a um assembly.
-[assembly: AssemblyTitle("TemplateDllLibraryProgram")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("EFF_V1_0")]
+[assembly: AssemblyDescription("Editor de arquivos de família")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("")]
+[assembly: AssemblyCompany("caiolopssants/ MHA Engenharia Ltda.")]
+[assembly: AssemblyProduct("EFF_V1_0")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("br.com.mha")]
 [assembly: AssemblyCulture("")]
 
 // Definir ComVisible como false torna os tipos neste assembly invisíveis
