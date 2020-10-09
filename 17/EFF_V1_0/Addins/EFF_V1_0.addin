@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command EFF V1.0 Com</Text>
+    <Description>Edit Family File V1.0</Description>
+    <Assembly>EFF_V1_0.dll</Assembly>
+    <FullClassName>EFF_V1_0.Classes_EFF_V1_0.Command.Command</FullClassName>
+    <ClientId>12413c19-dbd1-4a6a-b20a-fd81ff4d37db</ClientId>
+    <VendorId>br.com.mha</VendorId>
+    <VendorDescription>caiolopssants/ MHA Engenharia Ltda.</VendorDescription>
+  </AddIn>
+</RevitAddIns>

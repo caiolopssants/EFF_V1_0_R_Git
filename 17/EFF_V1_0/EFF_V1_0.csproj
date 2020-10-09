@@ -80,9 +80,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Addins\WMRF_V1_0 APP.addin" />
-    <None Include="Addins\WMRF_V1_0 COM .addin" />
-    <None Include="Addins\WMRF_V1_0.addin" />
+    <None Include="Addins\EFF_V1_0.addin" />
     <None Include="App.config" />
     <None Include="Void\Void.rfa" />
   </ItemGroup>
