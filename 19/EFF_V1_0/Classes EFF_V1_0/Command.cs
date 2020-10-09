@@ -29,11 +29,11 @@ using Autodesk.Revit.DB.Visual;
 
 namespace EFF_V1_0.Classes_EFF_V1_0
 {
-    class Command
+    [Transaction(TransactionMode.Manual)]
+    class Command:IExternalCommand
     {
         public Result Execute(ExternalCommandData externalCommandData, ref string message, ElementSet elementSet)
-        {
-                       
+        {                      
 
             OpenFileDialog oFD = new OpenFileDialog() { Multiselect = false, Title = "Selecione o documento excel que contenha as informações dos parâmetros desejados", AddExtension = true, Filter = "CSV UTF-8 (Separado por virgula)|*.csv|Todos os arquivos|*" };//criando gerenciador de arquivos
             DialogResult dialogResultSharedParameters = oFD.ShowDialog();//obtendo arquivo excel

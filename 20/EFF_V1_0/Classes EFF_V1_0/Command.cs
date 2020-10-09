@@ -29,7 +29,8 @@ using Autodesk.Revit.DB.Visual;
 
 namespace EFF_V1_0.Classes_EFF_V1_0
 {
-    class Command
+    [Transaction(TransactionMode.Manual)]
+    class Command : IExternalCommand
     {
         public Result Execute(ExternalCommandData externalCommandData, ref string message, ElementSet elementSet)
         {
